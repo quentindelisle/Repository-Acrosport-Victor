@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {"code": "GYM", "name": "Roues, roulades et éléments gymniques", "info": "Éléments individuels réalisés seul ou à plusieurs (en canon, en miroir, en synchronisation)."},
+    {"code": "CIR", "name": "Éléments circassiens", "info": "Manipulation d'objets, équilibres et chutes issus des arts du cirque, au service de la mise en scène."},
+    {"code": "PYD", "name": "Pyramides déplacées", "info": "Un ou plusieurs voltigeurs sont transportés : la figure se déplace ou change d'orientation sans être défaite."},
+    {"code": "ACC", "name": "Figures accompagnées", "info": "Un élément acrobatique réalisé avec l'aide active d'un ou plusieurs partenaires (aide = manipulation, parade = sécurité)."},
+    {"code": "CHO", "name": "Liaisons chorégraphiques", "info": "Déplacements, formations et transitions qui relient les figures et donnent du sens à l'enchaînement."},
+    {"code": "IS", "name": "Éléments individuels de sol (code)", "info": "Éléments du code de figures, utilisables comme liaisons. Ils ne rapportent pas de points de difficulté dans cette application."}
+  ],
+  "items": [
+    {"id": "L-GYM-01", "cat": "GYM", "name": "Roulade avant groupée", "nb": "1+", "desc": "Départ debout, pose des mains, menton rentré, enroulement du dos, remontée pieds joints sans appui des mains.", "secu": "Tapis épais, menton poitrine, pas d'appui sur la tête."},
+    {"id": "L-GYM-02", "cat": "GYM", "name": "Roulade avant jambes écartées", "nb": "1+", "desc": "Roulade avant, jambes tendues écartées à la remontée, mains au sol entre les jambes.", "secu": "Mains posées près du bassin pour remonter."},
+    {"id": "L-GYM-03", "cat": "GYM", "name": "Roulade arrière", "nb": "1+", "desc": "Départ accroupi ou debout, mains près des oreilles, poussée des bras pour dégager la tête, arrivée sur les pieds ou à genoux.", "secu": "Mains « en plateau » pour protéger la nuque."},
+    {"id": "L-GYM-04", "cat": "GYM", "name": "Roue", "nb": "1+", "desc": "Départ en fente, passage par l'appui renversé latéral sur les deux mains, arrivée en fente face ou de profil.", "secu": "Bras tendus, alignement main-main-pied-pied sur une ligne."},
+    {"id": "L-GYM-05", "cat": "GYM", "name": "Rondade", "nb": "1+", "desc": "Roue avec quart de tour, jambes réunies à l'ATR, arrivée pieds joints face au point de départ.", "secu": "Élan court maîtrisé, tapis long."},
+    {"id": "L-GYM-06", "cat": "GYM", "name": "Roulades synchronisées / en canon", "nb": "2+", "desc": "Plusieurs gymnastes réalisent la même roulade en même temps (synchro) ou l'un après l'autre (canon).", "secu": "Espacement suffisant entre les tapis."},
+    {"id": "L-GYM-07", "cat": "GYM", "name": "Sauts gymniques", "nb": "1+", "desc": "Saut extension, groupé, carpé écart ou demi-tour / tour vrillé (180° ou 360°), réception stabilisée pieds joints.", "secu": "Réception genoux fléchis, regard droit devant."},
+    {"id": "L-GYM-08", "cat": "GYM", "name": "Pivot / tour sur un pied", "nb": "1+", "desc": "Tour de 180° ou 360° sur demi-pointe, jambe libre fléchie (passé) ou tendue.", "secu": "—"},
+    {"id": "L-GYM-09", "cat": "GYM", "name": "ATR – roulade avant", "nb": "1+", "desc": "Montée à l'ATR, alignement marqué, descente en roulade avant.", "secu": "Parade possible au niveau des cuisses."},
+
+    {"id": "L-CIR-01", "cat": "CIR", "name": "Jonglage foulards", "nb": "1+", "desc": "Jonglage à 2 ou 3 foulards (cascade), en position statique ou en déplacement.", "secu": "—"},
+    {"id": "L-CIR-02", "cat": "CIR", "name": "Jonglage balles", "nb": "1+", "desc": "Cascade à 3 balles, ou 2 balles dans une main, pendant une liaison ou au sommet d'une pyramide (voltigeur stable uniquement).", "secu": "Jongler en hauteur seulement si la figure est parfaitement stable."},
+    {"id": "L-CIR-03", "cat": "CIR", "name": "Échange de jonglage (passing)", "nb": "2+", "desc": "Deux jongleurs face à face s'échangent balles, foulards ou massues selon un rythme commun.", "secu": "Distance adaptée, lancers sous la hauteur des visages."},
+    {"id": "L-CIR-04", "cat": "CIR", "name": "Lancer – rattraper d'objet", "nb": "2+", "desc": "Un objet (anneau, balle, bâton) est lancé d'un gymnaste à l'autre pendant un déplacement ou une transition.", "secu": "Objets légers et souples."},
+    {"id": "L-CIR-05", "cat": "CIR", "name": "Diabolo / bâton du diable / assiette chinoise", "nb": "1+", "desc": "Manipulation d'un objet de cirque (relance, lancer-rattraper, passage à un partenaire).", "secu": "Zone dégagée autour du manipulateur."},
+    {"id": "L-CIR-06", "cat": "CIR", "name": "Chute de confiance", "nb": "3+", "desc": "Le gymnaste, corps gainé, se laisse tomber en arrière ou en avant ; 2 ou 3 partenaires le réceptionnent aux épaules et au dos et le redressent.", "secu": "Faible amplitude au départ, réceptionneurs en fente, bras tendus."},
+    {"id": "L-CIR-07", "cat": "CIR", "name": "Équilibre sur une ligne", "nb": "1+", "desc": "Marche en équilibre sur une ligne ou un banc retourné, avec arrêt et pose (planche, chandelle de bras).", "secu": "Hauteur faible, parade latérale."},
+    {"id": "L-CIR-08", "cat": "CIR", "name": "Saute-mouton", "nb": "2+", "desc": "Le gymnaste franchit un partenaire groupé en appui des mains sur son dos ; enchaînement possible en file.", "secu": "Le partenaire rentre la tête, appui des mains sur le haut du dos."},
+
+    {"id": "L-PYD-01", "cat": "PYD", "name": "Brouette", "nb": "2", "desc": "V en appui facial sur les mains, P tient V aux cuisses ou aux genoux et se déplace avec lui.", "secu": "Tenue au-dessus des genoux, corps de V gainé."},
+    {"id": "L-PYD-02", "cat": "PYD", "name": "Porté « sac à dos »", "nb": "2", "desc": "V monté sur le dos de P (jambes autour de la taille), P se déplace en marchant puis aide V à redescendre.", "secu": "P dos droit, genoux fléchis pour la montée."},
+    {"id": "L-PYD-03", "cat": "PYD", "name": "Chaise à porteurs", "nb": "3", "desc": "Deux porteurs croisent leurs mains (prise « chaise »), V s'assoit et tient les épaules ; le trio se déplace.", "secu": "Prises poignets fermées, déplacement lent."},
+    {"id": "L-PYD-04", "cat": "PYD", "name": "Porté en planche", "nb": "3+", "desc": "V gainé en position horizontale (ventre ou dos) est porté par 2 à 4 porteurs (épaules, bassin, chevilles) qui se déplacent ou tournent.", "secu": "Un porteur au niveau des épaules, parade à la tête."},
+    {"id": "L-PYD-05", "cat": "PYD", "name": "Le « tank » (roulade à deux)", "nb": "2", "desc": "A allongé sur le dos tient les chevilles de B debout au-dessus de sa tête ; B tient les chevilles de A ; le duo enchaîne des roulades avant en se déplaçant.", "secu": "Uniquement sur tapis, rythme lent, rentrer le menton."},
+    {"id": "L-PYD-06", "cat": "PYD", "name": "Rotation de pyramide", "nb": "2+", "desc": "Une figure stable pivote de 90° ou 180° par de petits pas coordonnés des porteurs, le voltigeur restant immobile.", "secu": "Comptage à voix haute, pyramides basses uniquement."},
+    {"id": "L-PYD-07", "cat": "PYD", "name": "Chenille / quadrupédie liée", "nb": "3+", "desc": "Les gymnastes en quadrupédie se tiennent (chevilles ou bassin) et se déplacent en file comme une chenille.", "secu": "—"},
+    {"id": "L-PYD-08", "cat": "PYD", "name": "Transport d'une figure statique", "nb": "3+", "desc": "Le voltigeur garde sa position (équerre, planche…) pendant que les porteurs se déplacent ensemble de quelques pas.", "secu": "Parade dédiée pendant tout le déplacement."},
+
+    {"id": "L-ACC-01", "cat": "ACC", "name": "Roue accompagnée", "nb": "2", "desc": "Un aide placé dans le dos du gymnaste le tient à la taille (mains croisées) et l'accompagne pendant toute la roue.", "secu": "L'aide se place du côté du dos, bras croisés au départ."},
+    {"id": "L-ACC-02", "cat": "ACC", "name": "Roulade avant par-dessus un partenaire allongé", "nb": "2+", "desc": "Le gymnaste franchit un partenaire allongé sur le dos (ou deux partenaires côte à côte) et enchaîne une roulade avant.", "secu": "Partenaire allongé, impulsion modérée, tapis épais."},
+    {"id": "L-ACC-03", "cat": "ACC", "name": "ATR accompagné", "nb": "2", "desc": "Montée à l'ATR, un aide saisit les cuisses ou les chevilles pour maintenir l'alignement, puis accompagne la descente (fente ou roulade).", "secu": "L'aide se place sur le côté de la jambe d'élan."},
+    {"id": "L-ACC-04", "cat": "ACC", "name": "Saut de mains accompagné", "nb": "3", "desc": "Deux aides placent une main sous l'épaule et une main sous le bas du dos du gymnaste et l'accompagnent jusqu'à la réception.", "secu": "Uniquement si l'élément est déjà maîtrisé en situation aménagée."},
+    {"id": "L-ACC-05", "cat": "ACC", "name": "Dos à dos (bascule)", "nb": "2", "desc": "Les partenaires dos à dos se tiennent par les coudes ; P se penche en avant et V passe par-dessus son dos pour arriver debout.", "secu": "P fléchit les genoux, V reste groupé."},
+    {"id": "L-ACC-06", "cat": "ACC", "name": "Saut extension lancé", "nb": "3", "desc": "V prend appui sur les mains ou les épaules de deux partenaires qui l'aident à monter, puis à amortir la réception.", "secu": "Réceptionneurs mains sous les aisselles."},
+    {"id": "L-ACC-07", "cat": "ACC", "name": "Montée / descente accompagnée", "nb": "2+", "desc": "Entrée et sortie d'une pyramide réalisées avec l'aide d'un partenaire (prise des mains, appui, réception).", "secu": "Jamais de saut en descente sans réceptionneur."},
+
+    {"id": "L-CHO-01", "cat": "CHO", "name": "Déplacement en formation", "nb": "3+", "desc": "Passage d'une formation à une autre (ligne, colonne, cercle, triangle, V) en marchant, courant ou en pas chassés.", "secu": "—"},
+    {"id": "L-CHO-02", "cat": "CHO", "name": "Canon", "nb": "2+", "desc": "Le même mouvement est réalisé l'un après l'autre avec un décalage régulier.", "secu": "—"},
+    {"id": "L-CHO-03", "cat": "CHO", "name": "Miroir / opposition", "nb": "2+", "desc": "Deux gymnastes face à face réalisent les mêmes mouvements en symétrie.", "secu": "—"},
+    {"id": "L-CHO-04", "cat": "CHO", "name": "Pose et arrêt marqué", "nb": "1+", "desc": "Position finale ou intermédiaire tenue 2 à 3 secondes, regard et attitude affirmés (salut, début et fin d'enchaînement).", "secu": "—"},
+    {"id": "L-CHO-05", "cat": "CHO", "name": "Ondulations et rotations", "nb": "1+", "desc": "Mouvements dansés (ondulation, tour, passage au sol) en lien avec la musique.", "secu": "—"}
+  ]
+}
